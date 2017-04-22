@@ -9,7 +9,6 @@
 import Alamofire
 
 enum Path: String {
-    case aria = "/master/PrefSearchAPI/20150630/"
     case shop = "/RestSearchAPI/20150630/"
 }
 
