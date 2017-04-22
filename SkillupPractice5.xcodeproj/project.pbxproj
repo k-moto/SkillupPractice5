@@ -21,6 +21,11 @@
 		9F26818B1EAAEBD800A2B942 /* Area.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F2681881EAAEBD800A2B942 /* Area.storyboard */; };
 		9F26818C1EAAEBD800A2B942 /* AreaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2681891EAAEBD800A2B942 /* AreaViewController.swift */; };
 		9F26818E1EAAEC2900A2B942 /* area.json in Resources */ = {isa = PBXBuildFile; fileRef = 9F26818D1EAAEC2900A2B942 /* area.json */; };
+		9F2681911EAAF14800A2B942 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2681901EAAF14800A2B942 /* APIClient.swift */; };
+		9F2681961EAAF16400A2B942 /* ShopAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2681921EAAF16400A2B942 /* ShopAPI.swift */; };
+		9F2681971EAAF16400A2B942 /* ShopItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2681931EAAF16400A2B942 /* ShopItem.swift */; };
+		9F2681981EAAF16400A2B942 /* ShopLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2681941EAAF16400A2B942 /* ShopLoadable.swift */; };
+		9F2681991EAAF16400A2B942 /* ShopResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2681951EAAF16400A2B942 /* ShopResult.swift */; };
 		C9834D68DF28200A9977C4B3 /* Pods_SkillupPractice5.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA2A00A3C46C534291D48C37 /* Pods_SkillupPractice5.framework */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +70,11 @@
 		9F2681881EAAEBD800A2B942 /* Area.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Area.storyboard; sourceTree = "<group>"; };
 		9F2681891EAAEBD800A2B942 /* AreaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AreaViewController.swift; sourceTree = "<group>"; };
 		9F26818D1EAAEC2900A2B942 /* area.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = area.json; sourceTree = "<group>"; };
+		9F2681901EAAF14800A2B942 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		9F2681921EAAF16400A2B942 /* ShopAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopAPI.swift; sourceTree = "<group>"; };
+		9F2681931EAAF16400A2B942 /* ShopItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopItem.swift; sourceTree = "<group>"; };
+		9F2681941EAAF16400A2B942 /* ShopLoadable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopLoadable.swift; sourceTree = "<group>"; };
+		9F2681951EAAF16400A2B942 /* ShopResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopResult.swift; sourceTree = "<group>"; };
 		BE5BEC2FA0C8D7DD58DC12D4 /* Pods-SkillupPractice5UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkillupPractice5UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SkillupPractice5UITests/Pods-SkillupPractice5UITests.release.xcconfig"; sourceTree = "<group>"; };
 		DF84F5749BEAB22F2B943EDC /* Pods-SkillupPractice5Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkillupPractice5Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SkillupPractice5Tests/Pods-SkillupPractice5Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		EA2A00A3C46C534291D48C37 /* Pods_SkillupPractice5.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkillupPractice5.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -189,6 +199,7 @@
 		9F2681701EAAEA3F00A2B942 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				9F26818F1EAAF12400A2B942 /* Shop */,
 				9F26817E1EAAEBA300A2B942 /* Area */,
 			);
 			path = Model;
@@ -205,6 +216,7 @@
 		9F2681731EAAEA3F00A2B942 /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				9F2681901EAAF14800A2B942 /* APIClient.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -240,6 +252,17 @@
 		9F26818A1EAAEBD800A2B942 /* Shop */ = {
 			isa = PBXGroup;
 			children = (
+			);
+			path = Shop;
+			sourceTree = "<group>";
+		};
+		9F26818F1EAAF12400A2B942 /* Shop */ = {
+			isa = PBXGroup;
+			children = (
+				9F2681921EAAF16400A2B942 /* ShopAPI.swift */,
+				9F2681931EAAF16400A2B942 /* ShopItem.swift */,
+				9F2681941EAAF16400A2B942 /* ShopLoadable.swift */,
+				9F2681951EAAF16400A2B942 /* ShopResult.swift */,
 			);
 			path = Shop;
 			sourceTree = "<group>";
@@ -527,8 +550,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F2681751EAAEA3F00A2B942 /* AppDelegate.swift in Sources */,
+				9F2681981EAAF16400A2B942 /* ShopLoadable.swift in Sources */,
+				9F2681911EAAF14800A2B942 /* APIClient.swift in Sources */,
 				9F26818C1EAAEBD800A2B942 /* AreaViewController.swift in Sources */,
 				9F2681841EAAEBA300A2B942 /* AreaJsonReader.swift in Sources */,
+				9F2681961EAAF16400A2B942 /* ShopAPI.swift in Sources */,
+				9F2681971EAAF16400A2B942 /* ShopItem.swift in Sources */,
+				9F2681991EAAF16400A2B942 /* ShopResult.swift in Sources */,
 				9F2681831EAAEBA300A2B942 /* AreaItem.swift in Sources */,
 				9F2681861EAAEBA300A2B942 /* AreaResult.swift in Sources */,
 				9F2681851EAAEBA300A2B942 /* AreaLoadable.swift in Sources */,

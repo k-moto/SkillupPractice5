@@ -1,5 +1,5 @@
 //
-//  AreaResult.swift
+//  ShopResult.swift
 //  SkillupPractice5
 //
 //  Created by k_motoyama on 2017/04/22.
@@ -9,14 +9,16 @@
 import Foundation
 import ObjectMapper
 
-struct AreaResult: Mappable {
+struct ShopResult: Mappable {
     
-    var gareaLarge: [AreaItem] = []
+    var rest: [ShopItem] = []
+    var hitCount = ""
     
     init?(map: Map) {}
     
     mutating func mapping(map: Map) {
-        gareaLarge <- map["garea_large"]
-        
+        rest <- map["rest"]
+        hitCount <- map["total_hit_count"]
+
     }
 }
