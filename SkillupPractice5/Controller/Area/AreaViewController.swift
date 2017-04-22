@@ -41,7 +41,6 @@ extension AreaViewController: UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
-        // TODO 選択したエリアの絞込できる何かを渡す
         let shopView = UIStoryboard.viewController(storyboardName: "Shop", identifier: "ShopViewController") as! ShopViewController
         
         shopView.selectPrefCode = dataList[indexPath.row].prefCode

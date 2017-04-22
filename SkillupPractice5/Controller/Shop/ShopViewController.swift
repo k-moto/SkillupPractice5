@@ -8,6 +8,7 @@
 
 import UIKit
 import AlamofireImage
+import STV_Extensions
 
 class ShopViewController: UIViewController {
     
@@ -26,9 +27,11 @@ class ShopViewController: UIViewController {
     var pageCount = 1
     var currentDate = Date()
     
+    let shopTableView :ShopTableView = ShopTableView()
+    
     
     override func viewDidLoad() {
-        shopTable.dataSource = self
+        shopTable.dataSource = shopTableView
         shopTable.delegate = self
         
         shopTable.estimatedRowHeight = 45
@@ -41,44 +44,6 @@ class ShopViewController: UIViewController {
         self.navigationItem.title = selectAreaName + "の飲食店 0件"
     }
     
-    
-}
-
-extension ShopViewController: UITableViewDataSource {
-    
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return shopList.count
-    }
-    
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        
-        let cell = tableView.dequeueReusableCell(withIdentifier: ShopCell.identifier,for: indexPath) as! ShopCell
-        
-        let shopItem = shopList[indexPath.row]
-        
-        cell.shopName.text = shopItem.name
-        
-        
-        if let url = URL.init(string: shopItem.shopImage1) {
-            cell.shopThumbnail.af_setImage(withURL: url)
-            
-        } else {
-            cell.shopThumbnail.image = UIImage(named:"noimage")
-            
-        }
-        
-        let nearest =  "\(shopItem.station)　\(shopItem.walk)分"
-        
-        cell.nearest.text = nearest
-        
-        cell.address.text = shopItem.address
-        cell.tell.text = shopItem.tel
-        
-        cell.budget.text = "¥\(shopItem.budget)"
-        
-        
-        return cell
-    }
     
 }
 
@@ -118,8 +83,12 @@ extension ShopViewController: ShopLoadable {
             
         case .nomal(let result):
             shopList += result.rest
+            shopTableView.add(shopList: shopList)
             shopTable.reloadData()
-            self.navigationItem.title = selectAreaName + "の飲食店 \(result.hitCount)件"
+            if let dispHitCount = Int(result.hitCount) {
+                self.navigationItem.title = selectAreaName + "の飲食店 \(dispHitCount.decimalStr)件"
+            }
+
             
         case .noData:
             showAlert(title: "データ無し", message: "飲食店データが存在しません。")

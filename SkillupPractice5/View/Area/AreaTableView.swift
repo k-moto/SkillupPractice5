@@ -23,7 +23,7 @@ class AreaTableView:NSObject, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        let cell = tableView.dequeueReusableCell(withIdentifier: AreaCell.identifier,for: indexPath) as! AreaCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: AreaTableViewCell.identifier,for: indexPath) as! AreaTableViewCell
         cell.areaNameLabel.text = dataList[indexPath.row].areanameL
         
         return cell

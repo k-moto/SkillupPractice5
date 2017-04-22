@@ -19,6 +19,13 @@ final class ShopAPI {
         
         let getParam = "?keyid=\(keyid)&format=\(format)&areacode_l=\(areaCodeL)&pref=\(pref)&hit_per_page=\(perPage)&offset_page=\(offset)"
         
+//        guard NetworkManager.isAvailable() else {
+//            let error = NSError.init()
+//            error.code = 500
+//            self.loadable?.setResult(result: .error(error.))
+//            return
+//        }
+        
         let client = APIClient(path: .shop, param: getParam)
         
         client.request() { [weak self] (response) in

@@ -1,5 +1,5 @@
 //
-//  AreaCell.swift
+//  AreaTableViewCell.swift
 //  SkillupPractice5
 //
 //  Created by k_motoyama on 2017/04/22.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-final class AreaCell: UITableViewCell {
+final class AreaTableViewCell: UITableViewCell {
     
     @IBOutlet weak var areaNameLabel: UILabel!
     

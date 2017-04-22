@@ -1,5 +1,5 @@
 //
-//  ShopCell.swift
+//  ShopTableViewCell.swift
 //  SkillupPractice5
 //
 //  Created by k_motoyama on 2017/04/22.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-final class ShopCell: UITableViewCell {
+final class ShopTableViewCell: UITableViewCell {
     
     @IBOutlet weak var shopName: UILabel!
     @IBOutlet weak var shopThumbnail: UIImageView!
