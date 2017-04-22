@@ -64,29 +64,33 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="areaNameLabel" destination="FBN-pb-oel" id="aQI-ux-fVC"/>
+                                            <outlet property="areaNameLabel" destination="FBN-pb-oel" id="CZJ-IS-FRK"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
                             <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WD2-Sw-6Vl">
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <subviews>
+                                    <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="sNM-Hq-jRx">
+                                        <rect key="frame" x="169" y="283" width="37" height="37"/>
+                                        <color key="color" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    </activityIndicatorView>
+                                </subviews>
                                 <color key="backgroundColor" white="0.66666666669999997" alpha="0.31601839539999999" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="sNM-Hq-jRx" firstAttribute="centerY" secondItem="WD2-Sw-6Vl" secondAttribute="centerY" id="Nvu-nQ-L0f"/>
+                                    <constraint firstItem="sNM-Hq-jRx" firstAttribute="centerX" secondItem="WD2-Sw-6Vl" secondAttribute="centerX" id="fcC-lK-Uua"/>
+                                </constraints>
                             </view>
-                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="sNM-Hq-jRx">
-                                <rect key="frame" x="169" y="315" width="37" height="37"/>
-                                <color key="color" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="sNM-Hq-jRx" firstAttribute="centerX" secondItem="uLH-Dt-uHu" secondAttribute="centerX" id="0Uw-Mr-V1z"/>
                             <constraint firstItem="DOW-ad-W49" firstAttribute="top" secondItem="WD2-Sw-6Vl" secondAttribute="bottom" id="8en-QT-Tsz"/>
                             <constraint firstItem="ryp-r6-jVU" firstAttribute="leading" secondItem="uLH-Dt-uHu" secondAttribute="leading" id="JgD-Tj-73b"/>
                             <constraint firstItem="DOW-ad-W49" firstAttribute="top" secondItem="ryp-r6-jVU" secondAttribute="bottom" id="idu-uB-Wt8"/>
                             <constraint firstAttribute="trailing" secondItem="WD2-Sw-6Vl" secondAttribute="trailing" id="olU-Ut-6iw"/>
                             <constraint firstAttribute="trailing" secondItem="ryp-r6-jVU" secondAttribute="trailing" id="pNF-Hw-Xld"/>
-                            <constraint firstItem="sNM-Hq-jRx" firstAttribute="centerY" secondItem="uLH-Dt-uHu" secondAttribute="centerY" id="t3p-jH-qo0"/>
                             <constraint firstItem="WD2-Sw-6Vl" firstAttribute="top" secondItem="FfO-fi-UnD" secondAttribute="bottom" id="tMK-53-4uR"/>
                             <constraint firstItem="WD2-Sw-6Vl" firstAttribute="leading" secondItem="uLH-Dt-uHu" secondAttribute="leading" id="u7h-2b-bl1"/>
                             <constraint firstItem="ryp-r6-jVU" firstAttribute="top" secondItem="uLH-Dt-uHu" secondAttribute="top" id="uxE-Oh-iDA"/>
@@ -94,9 +98,9 @@
                     </view>
                     <navigationItem key="navigationItem" id="e8K-yH-f9n"/>
                     <connections>
-                        <outlet property="areaTable" destination="ryp-r6-jVU" id="RnP-q9-IaZ"/>
-                        <outlet property="indicator" destination="sNM-Hq-jRx" id="z7F-W4-9eL"/>
-                        <outlet property="indicatorView" destination="WD2-Sw-6Vl" id="COb-3B-q5U"/>
+                        <outlet property="areaTable" destination="ryp-r6-jVU" id="cSB-VW-8bk"/>
+                        <outlet property="indicator" destination="sNM-Hq-jRx" id="ZJp-za-vmZ"/>
+                        <outlet property="indicatorView" destination="WD2-Sw-6Vl" id="wUL-VZ-hle"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TQi-bG-vPM" sceneMemberID="firstResponder"/>

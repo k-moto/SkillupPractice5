@@ -26,6 +26,11 @@
 		9F2681971EAAF16400A2B942 /* ShopItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2681931EAAF16400A2B942 /* ShopItem.swift */; };
 		9F2681981EAAF16400A2B942 /* ShopLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2681941EAAF16400A2B942 /* ShopLoadable.swift */; };
 		9F2681991EAAF16400A2B942 /* ShopResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2681951EAAF16400A2B942 /* ShopResult.swift */; };
+		9F26819B1EAAF1C900A2B942 /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F26819A1EAAF1C900A2B942 /* ShopViewController.swift */; };
+		9F26819D1EAAF1DC00A2B942 /* Shop.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F26819C1EAAF1DC00A2B942 /* Shop.storyboard */; };
+		9F2681A21EAAF2D800A2B942 /* AreaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F26819F1EAAF2D800A2B942 /* AreaCell.swift */; };
+		9F2681A31EAAF2D800A2B942 /* ShopCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2681A11EAAF2D800A2B942 /* ShopCell.swift */; };
+		9F2681A51EAAF5EE00A2B942 /* AreaTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2681A41EAAF5EE00A2B942 /* AreaTableView.swift */; };
 		C9834D68DF28200A9977C4B3 /* Pods_SkillupPractice5.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA2A00A3C46C534291D48C37 /* Pods_SkillupPractice5.framework */; };
 /* End PBXBuildFile section */
 
@@ -75,6 +80,11 @@
 		9F2681931EAAF16400A2B942 /* ShopItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopItem.swift; sourceTree = "<group>"; };
 		9F2681941EAAF16400A2B942 /* ShopLoadable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopLoadable.swift; sourceTree = "<group>"; };
 		9F2681951EAAF16400A2B942 /* ShopResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopResult.swift; sourceTree = "<group>"; };
+		9F26819A1EAAF1C900A2B942 /* ShopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopViewController.swift; sourceTree = "<group>"; };
+		9F26819C1EAAF1DC00A2B942 /* Shop.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Shop.storyboard; sourceTree = "<group>"; };
+		9F26819F1EAAF2D800A2B942 /* AreaCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AreaCell.swift; sourceTree = "<group>"; };
+		9F2681A11EAAF2D800A2B942 /* ShopCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopCell.swift; sourceTree = "<group>"; };
+		9F2681A41EAAF5EE00A2B942 /* AreaTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AreaTableView.swift; sourceTree = "<group>"; };
 		BE5BEC2FA0C8D7DD58DC12D4 /* Pods-SkillupPractice5UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkillupPractice5UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SkillupPractice5UITests/Pods-SkillupPractice5UITests.release.xcconfig"; sourceTree = "<group>"; };
 		DF84F5749BEAB22F2B943EDC /* Pods-SkillupPractice5Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkillupPractice5Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SkillupPractice5Tests/Pods-SkillupPractice5Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		EA2A00A3C46C534291D48C37 /* Pods_SkillupPractice5.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkillupPractice5.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -224,6 +234,8 @@
 		9F2681741EAAEA3F00A2B942 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				9F26819E1EAAF2D800A2B942 /* Area */,
+				9F2681A01EAAF2D800A2B942 /* Shop */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -252,6 +264,8 @@
 		9F26818A1EAAEBD800A2B942 /* Shop */ = {
 			isa = PBXGroup;
 			children = (
+				9F26819C1EAAF1DC00A2B942 /* Shop.storyboard */,
+				9F26819A1EAAF1C900A2B942 /* ShopViewController.swift */,
 			);
 			path = Shop;
 			sourceTree = "<group>";
@@ -263,6 +277,23 @@
 				9F2681931EAAF16400A2B942 /* ShopItem.swift */,
 				9F2681941EAAF16400A2B942 /* ShopLoadable.swift */,
 				9F2681951EAAF16400A2B942 /* ShopResult.swift */,
+			);
+			path = Shop;
+			sourceTree = "<group>";
+		};
+		9F26819E1EAAF2D800A2B942 /* Area */ = {
+			isa = PBXGroup;
+			children = (
+				9F26819F1EAAF2D800A2B942 /* AreaCell.swift */,
+				9F2681A41EAAF5EE00A2B942 /* AreaTableView.swift */,
+			);
+			path = Area;
+			sourceTree = "<group>";
+		};
+		9F2681A01EAAF2D800A2B942 /* Shop */ = {
+			isa = PBXGroup;
+			children = (
+				9F2681A11EAAF2D800A2B942 /* ShopCell.swift */,
 			);
 			path = Shop;
 			sourceTree = "<group>";
@@ -384,6 +415,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F2681431EAAE07900A2B942 /* Assets.xcassets in Resources */,
+				9F26819D1EAAF1DC00A2B942 /* Shop.storyboard in Resources */,
 				9F26818B1EAAEBD800A2B942 /* Area.storyboard in Resources */,
 				9F26818E1EAAEC2900A2B942 /* area.json in Resources */,
 				9F26816A1EAAEA2D00A2B942 /* LaunchScreen.storyboard in Resources */,
@@ -553,11 +585,15 @@
 				9F2681981EAAF16400A2B942 /* ShopLoadable.swift in Sources */,
 				9F2681911EAAF14800A2B942 /* APIClient.swift in Sources */,
 				9F26818C1EAAEBD800A2B942 /* AreaViewController.swift in Sources */,
+				9F2681A51EAAF5EE00A2B942 /* AreaTableView.swift in Sources */,
 				9F2681841EAAEBA300A2B942 /* AreaJsonReader.swift in Sources */,
 				9F2681961EAAF16400A2B942 /* ShopAPI.swift in Sources */,
 				9F2681971EAAF16400A2B942 /* ShopItem.swift in Sources */,
 				9F2681991EAAF16400A2B942 /* ShopResult.swift in Sources */,
+				9F26819B1EAAF1C900A2B942 /* ShopViewController.swift in Sources */,
+				9F2681A31EAAF2D800A2B942 /* ShopCell.swift in Sources */,
 				9F2681831EAAEBA300A2B942 /* AreaItem.swift in Sources */,
+				9F2681A21EAAF2D800A2B942 /* AreaCell.swift in Sources */,
 				9F2681861EAAEBA300A2B942 /* AreaResult.swift in Sources */,
 				9F2681851EAAEBA300A2B942 /* AreaLoadable.swift in Sources */,
 			);

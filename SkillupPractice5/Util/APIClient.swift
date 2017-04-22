@@ -1,6 +1,6 @@
 //
 //  APIClient.swift
-//  guru
+//  SkillupPractice5
 //
 //  Created by k_motoyama on 2017/04/22.
 //  Copyright © 2017年 k_moto. All rights reserved.

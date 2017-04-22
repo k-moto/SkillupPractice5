@@ -12,13 +12,12 @@ final class ShopAPI {
     
     var loadable: ShopLoadable?
     
-    func fetch(area: String, perPage: String, offset: Int) {
+    func fetch(areaCodeL: String, pref: String, perPage: String, offset: Int) {
         
         let keyid = "6adca4e8fb42567521066a6337d0c72d"
         let format = "json"
         
-        let getParam = "?keyid=\(keyid)&format=\(format)&hit_per_page=\(perPage)&offset_page=\(offset)"
-        
+        let getParam = "?keyid=\(keyid)&format=\(format)&areacode_l=\(areaCodeL)&pref=\(pref)&hit_per_page=\(perPage)&offset_page=\(offset)"
         
         let client = APIClient(path: .shop, param: getParam)
         
