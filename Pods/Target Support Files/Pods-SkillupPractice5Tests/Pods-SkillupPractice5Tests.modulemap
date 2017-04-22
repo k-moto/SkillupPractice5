@@ -1,0 +1,6 @@
+framework module Pods_SkillupPractice5Tests {
+  umbrella header "Pods-SkillupPractice5Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
