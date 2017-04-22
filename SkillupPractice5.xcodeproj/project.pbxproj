@@ -9,13 +9,18 @@
 /* Begin PBXBuildFile section */
 		56701D500796F7FFC2B10042 /* Pods_SkillupPractice5UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B2EF126F81F50A723634D22 /* Pods_SkillupPractice5UITests.framework */; };
 		68F967283908E2DE3FCB680C /* Pods_SkillupPractice5Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F69E2A9914EA8CE5B035AB44 /* Pods_SkillupPractice5Tests.framework */; };
-		9F26813C1EAAE07900A2B942 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F26813B1EAAE07900A2B942 /* AppDelegate.swift */; };
-		9F26813E1EAAE07900A2B942 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F26813D1EAAE07900A2B942 /* ViewController.swift */; };
-		9F2681411EAAE07900A2B942 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F26813F1EAAE07900A2B942 /* Main.storyboard */; };
 		9F2681431EAAE07900A2B942 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F2681421EAAE07900A2B942 /* Assets.xcassets */; };
-		9F2681461EAAE07900A2B942 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F2681441EAAE07900A2B942 /* LaunchScreen.storyboard */; };
 		9F2681511EAAE07900A2B942 /* SkillupPractice5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2681501EAAE07900A2B942 /* SkillupPractice5Tests.swift */; };
 		9F26815C1EAAE07900A2B942 /* SkillupPractice5UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F26815B1EAAE07900A2B942 /* SkillupPractice5UITests.swift */; };
+		9F26816A1EAAEA2D00A2B942 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F2681691EAAEA2D00A2B942 /* LaunchScreen.storyboard */; };
+		9F2681751EAAEA3F00A2B942 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2681721EAAEA3F00A2B942 /* AppDelegate.swift */; };
+		9F2681831EAAEBA300A2B942 /* AreaItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F26817F1EAAEBA300A2B942 /* AreaItem.swift */; };
+		9F2681841EAAEBA300A2B942 /* AreaJsonReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2681801EAAEBA300A2B942 /* AreaJsonReader.swift */; };
+		9F2681851EAAEBA300A2B942 /* AreaLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2681811EAAEBA300A2B942 /* AreaLoadable.swift */; };
+		9F2681861EAAEBA300A2B942 /* AreaResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2681821EAAEBA300A2B942 /* AreaResult.swift */; };
+		9F26818B1EAAEBD800A2B942 /* Area.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F2681881EAAEBD800A2B942 /* Area.storyboard */; };
+		9F26818C1EAAEBD800A2B942 /* AreaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2681891EAAEBD800A2B942 /* AreaViewController.swift */; };
+		9F26818E1EAAEC2900A2B942 /* area.json in Resources */ = {isa = PBXBuildFile; fileRef = 9F26818D1EAAEC2900A2B942 /* area.json */; };
 		C9834D68DF28200A9977C4B3 /* Pods_SkillupPractice5.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA2A00A3C46C534291D48C37 /* Pods_SkillupPractice5.framework */; };
 /* End PBXBuildFile section */
 
@@ -43,11 +48,7 @@
 		47BC4F2CFDCD101534A9F191 /* Pods-SkillupPractice5Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkillupPractice5Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SkillupPractice5Tests/Pods-SkillupPractice5Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9544261482F389A9BB0E0618 /* Pods-SkillupPractice5.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkillupPractice5.release.xcconfig"; path = "Pods/Target Support Files/Pods-SkillupPractice5/Pods-SkillupPractice5.release.xcconfig"; sourceTree = "<group>"; };
 		9F2681381EAAE07900A2B942 /* SkillupPractice5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkillupPractice5.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9F26813B1EAAE07900A2B942 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9F26813D1EAAE07900A2B942 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9F2681401EAAE07900A2B942 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9F2681421EAAE07900A2B942 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9F2681451EAAE07900A2B942 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F2681471EAAE07900A2B942 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F26814C1EAAE07900A2B942 /* SkillupPractice5Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkillupPractice5Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F2681501EAAE07900A2B942 /* SkillupPractice5Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillupPractice5Tests.swift; sourceTree = "<group>"; };
@@ -55,6 +56,15 @@
 		9F2681571EAAE07900A2B942 /* SkillupPractice5UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkillupPractice5UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F26815B1EAAE07900A2B942 /* SkillupPractice5UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillupPractice5UITests.swift; sourceTree = "<group>"; };
 		9F26815D1EAAE07900A2B942 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F2681691EAAEA2D00A2B942 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9F2681721EAAEA3F00A2B942 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9F26817F1EAAEBA300A2B942 /* AreaItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AreaItem.swift; sourceTree = "<group>"; };
+		9F2681801EAAEBA300A2B942 /* AreaJsonReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AreaJsonReader.swift; sourceTree = "<group>"; };
+		9F2681811EAAEBA300A2B942 /* AreaLoadable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AreaLoadable.swift; sourceTree = "<group>"; };
+		9F2681821EAAEBA300A2B942 /* AreaResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AreaResult.swift; sourceTree = "<group>"; };
+		9F2681881EAAEBD800A2B942 /* Area.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Area.storyboard; sourceTree = "<group>"; };
+		9F2681891EAAEBD800A2B942 /* AreaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AreaViewController.swift; sourceTree = "<group>"; };
+		9F26818D1EAAEC2900A2B942 /* area.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = area.json; sourceTree = "<group>"; };
 		BE5BEC2FA0C8D7DD58DC12D4 /* Pods-SkillupPractice5UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkillupPractice5UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SkillupPractice5UITests/Pods-SkillupPractice5UITests.release.xcconfig"; sourceTree = "<group>"; };
 		DF84F5749BEAB22F2B943EDC /* Pods-SkillupPractice5Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkillupPractice5Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SkillupPractice5Tests/Pods-SkillupPractice5Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		EA2A00A3C46C534291D48C37 /* Pods_SkillupPractice5.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkillupPractice5.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -137,11 +147,13 @@
 		9F26813A1EAAE07900A2B942 /* SkillupPractice5 */ = {
 			isa = PBXGroup;
 			children = (
-				9F26813B1EAAE07900A2B942 /* AppDelegate.swift */,
-				9F26813D1EAAE07900A2B942 /* ViewController.swift */,
-				9F26813F1EAAE07900A2B942 /* Main.storyboard */,
+				9F26816B1EAAEA3400A2B942 /* Controller */,
+				9F2681701EAAEA3F00A2B942 /* Model */,
+				9F2681711EAAEA3F00A2B942 /* Other */,
+				9F2681731EAAEA3F00A2B942 /* Util */,
+				9F2681741EAAEA3F00A2B942 /* View */,
+				9F2681691EAAEA2D00A2B942 /* LaunchScreen.storyboard */,
 				9F2681421EAAE07900A2B942 /* Assets.xcassets */,
-				9F2681441EAAE07900A2B942 /* LaunchScreen.storyboard */,
 				9F2681471EAAE07900A2B942 /* Info.plist */,
 			);
 			path = SkillupPractice5;
@@ -163,6 +175,73 @@
 				9F26815D1EAAE07900A2B942 /* Info.plist */,
 			);
 			path = SkillupPractice5UITests;
+			sourceTree = "<group>";
+		};
+		9F26816B1EAAEA3400A2B942 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9F2681871EAAEBD800A2B942 /* Area */,
+				9F26818A1EAAEBD800A2B942 /* Shop */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9F2681701EAAEA3F00A2B942 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9F26817E1EAAEBA300A2B942 /* Area */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9F2681711EAAEA3F00A2B942 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				9F2681721EAAEA3F00A2B942 /* AppDelegate.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		9F2681731EAAEA3F00A2B942 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		9F2681741EAAEA3F00A2B942 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9F26817E1EAAEBA300A2B942 /* Area */ = {
+			isa = PBXGroup;
+			children = (
+				9F26818D1EAAEC2900A2B942 /* area.json */,
+				9F26817F1EAAEBA300A2B942 /* AreaItem.swift */,
+				9F2681801EAAEBA300A2B942 /* AreaJsonReader.swift */,
+				9F2681811EAAEBA300A2B942 /* AreaLoadable.swift */,
+				9F2681821EAAEBA300A2B942 /* AreaResult.swift */,
+			);
+			path = Area;
+			sourceTree = "<group>";
+		};
+		9F2681871EAAEBD800A2B942 /* Area */ = {
+			isa = PBXGroup;
+			children = (
+				9F2681881EAAEBD800A2B942 /* Area.storyboard */,
+				9F2681891EAAEBD800A2B942 /* AreaViewController.swift */,
+			);
+			path = Area;
+			sourceTree = "<group>";
+		};
+		9F26818A1EAAEBD800A2B942 /* Shop */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Shop;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,9 +360,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F2681461EAAE07900A2B942 /* LaunchScreen.storyboard in Resources */,
 				9F2681431EAAE07900A2B942 /* Assets.xcassets in Resources */,
-				9F2681411EAAE07900A2B942 /* Main.storyboard in Resources */,
+				9F26818B1EAAEBD800A2B942 /* Area.storyboard in Resources */,
+				9F26818E1EAAEC2900A2B942 /* area.json in Resources */,
+				9F26816A1EAAEA2D00A2B942 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,8 +526,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F26813E1EAAE07900A2B942 /* ViewController.swift in Sources */,
-				9F26813C1EAAE07900A2B942 /* AppDelegate.swift in Sources */,
+				9F2681751EAAEA3F00A2B942 /* AppDelegate.swift in Sources */,
+				9F26818C1EAAEBD800A2B942 /* AreaViewController.swift in Sources */,
+				9F2681841EAAEBA300A2B942 /* AreaJsonReader.swift in Sources */,
+				9F2681831EAAEBA300A2B942 /* AreaItem.swift in Sources */,
+				9F2681861EAAEBA300A2B942 /* AreaResult.swift in Sources */,
+				9F2681851EAAEBA300A2B942 /* AreaLoadable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,25 +565,6 @@
 			targetProxy = 9F2681581EAAE07900A2B942 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		9F26813F1EAAE07900A2B942 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9F2681401EAAE07900A2B942 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		9F2681441EAAE07900A2B942 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9F2681451EAAE07900A2B942 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		9F26815E1EAAE07900A2B942 /* Debug */ = {
@@ -696,6 +761,7 @@
 				9F2681621EAAE07900A2B942 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9F2681631EAAE07900A2B942 /* Build configuration list for PBXNativeTarget "SkillupPractice5Tests" */ = {
 			isa = XCConfigurationList;
@@ -704,6 +770,7 @@
 				9F2681651EAAE07900A2B942 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9F2681661EAAE07900A2B942 /* Build configuration list for PBXNativeTarget "SkillupPractice5UITests" */ = {
 			isa = XCConfigurationList;
@@ -712,6 +779,7 @@
 				9F2681681EAAE07900A2B942 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
